@@ -1,0 +1,115 @@
+/* Desktop */
+@media screen and (min-width: 1224px) {
+  /* Сюда писать код для больших экранов */
+  .location{
+    display: flex;
+    flex-direction:row;
+  }
+}
+
+/* iPad Landscape and smaller desktop screens */
+@media screen and (max-width: 1024px) and (min-width: 769px) {
+  :root{
+    --ft-900: 14rem; /*28x*/
+    --ft-600: 6rem;  /*12x */
+    --ft-500: 4rem; /*8x*/
+    --ft-400: 3rem; /*6x*/
+    --ft-300: 2rem; /*4x*/
+    --ft-200: 1rem; /*2x*/
+    --ft-100: 0.5rem; /*1x*/
+}
+}
+
+/* iPad Portrait */
+@media screen and (max-width: 768px) {
+  :root{
+    --ft-900: 14rem; /*28x*/
+    --ft-600: 6rem;  /*12x */
+    --ft-500: 4rem; /*8x*/
+    --ft-400: 3rem; /*6x*/
+    --ft-300: 2rem; /*4x*/
+    --ft-200: 1rem; /*2x*/
+    --ft-100: 0.5rem; /*1x*/
+}
+}
+
+/* iPhone Landscape and smaller tablets */
+@media screen and (max-width: 768px) and (min-width: 481px) {
+  /* Сюда писать код для iPhone Landscape и планшетов с экранами меньше 768px ширины */
+}
+
+/* iPhone Portrait */
+@media screen and (max-width: 480px) {
+  .marked {
+    font-size: var(--ft-300);
+    font-family: 'PP';
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex: 1 0 0;
+    align-self: stretch;
+    align-content: center;
+  }
+}
+
+/* Common code for all mobile devices (320px and above) */
+@media screen and (max-width: 768px) {
+  :root{
+    --ft-900: 14.4rem; /*28x*/
+    --ft-600: 3.6rem;  /*12x */
+    --ft-500: 2.4rem; /*8x*/
+    --ft-400: 1.8rem; /*6x*/
+    --ft-300: 1.2rem; /*4x*/
+    --ft-200: 0.6rem; /*2x*/
+    --ft-100: 0.3rem; /*1x*/
+}
+.side-title{
+  display: none;
+}
+.about-event-content{
+  flex-direction: column;
+  align-items: flex-end;
+  justify-content: end;
+}
+.right-block {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  align-items: flex-end;
+  flex: 1 0 0;
+  align-self: stretch;
+}
+.location {
+  display: flex;
+  padding: var(--ft-400);
+  gap: var(--ft-400);
+  font-family: 'PP';
+  flex-wrap: nowrap;
+  flex-direction: column-reverse;
+  align-content: center;
+  justify-content: space-evenly;
+  align-items: stretch;
+}
+.galery{
+  flex-direction: column;
+}
+.navbar-1 {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  align-self: stretch;
+}
+.marked {
+  writing-mode: horizontal-tb;
+  font-size: var(--ft-300);
+  font-family: 'PP';
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex: 1 0 0;
+  align-self: stretch;
+  align-content: center;
+}
+}
+
