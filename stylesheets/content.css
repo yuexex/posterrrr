@@ -7,7 +7,7 @@ html, body{
     color: white;
     background-color: rgb(0, 0, 0);
     overflow-x: hidden;
-    background-image: url(/images/da.png);
+    background-image: url("/images/da.png");
 }
 
 :root{
@@ -44,10 +44,10 @@ html, body{
  flex-direction: column;
  align-items: center;
  justify-content: center;
- background-image: url(/images/da.png);
+ background-image: url("/images/da.png");
  background-size: cover;
  background-position: center;
- background-image: url(/images/s.png);
+ background-image: url("/images/s.png");
     background-size: contain;
     background-position: center;
     background-repeat: no-repeat;
